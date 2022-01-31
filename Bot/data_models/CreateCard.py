@@ -7,52 +7,6 @@ from data_models.Utils import Utils
 
 class CreateCard:
 
-    # @staticmethod
-    # def createMenuCardWithCardActions():
-    #     card = HeroCard(
-    #         title="Menu",
-    #         text="Ciao, come posso aiutarti? Per uscire digita 'quit' o 'esci'",
-    #         buttons=[
-    #             CardAction(
-    #                 type=ActionTypes.im_back,
-    #                 title="1. Traccia cryptovaluta",
-    #                 value="1"
-    #             ),
-    #             CardAction(
-    #                 type=ActionTypes.im_back,
-    #                 title="2. Ultime notizie riguardo il mondo crypto",
-    #                 value="2",
-    #             ),
-    #             CardAction(
-    #                 type=ActionTypes.im_back,
-    #                 title="3. Ultime 5 crypto che hanno avuto maggior incremento di valore nelle ultime 24 ore",
-    #                 value="3",
-    #             ),
-    #             CardAction(
-    #                 type=ActionTypes.im_back,
-    #                 title="4. Servizio Question and Answer per rispondere a tutte le tue domande sul mondo delle crypto!",
-    #                 value="4",
-    #             ),
-    #             CardAction(
-    #                 type=ActionTypes.im_back,
-    #                 title="5. Proporre una domanda con la relativa risposta riguardante tale ambito",
-    #                 value="5",
-    #             ),
-    #             CardAction(
-    #                 type=ActionTypes.im_back,
-    #                 title="6. Restituire cryptovalute che hanno un valore compreso in un range di valori",
-    #                 value="6",
-    #             ),
-    #             CardAction(
-    #                 type=ActionTypes.im_back,
-    #                 title="Logout (non funziona ancora)",
-    #                 value="logout",
-    #             )
-    #         ],
-    #     )
-    #
-    #     return CardFactory.hero_card(card)
-
     @staticmethod
     def createMenuCardWithCarousel():
         reply = MessageFactory.list([])
@@ -139,24 +93,3 @@ class CreateCard:
         )
 
         return CardFactory.hero_card(card)
-
-    # @staticmethod
-    # async def create_card_with_suggested_questions(text="Inserisci domanda:", questions=None) -> MessageFactory:
-    #     if questions is None:
-    #         questions = ["Question 1", "Question 2"]
-    #
-    #     lista_suggested_actions=[]
-    #     for q in questions:
-    #         lista_suggested_actions.append(
-    #             CardAction(
-    #                 type=ActionTypes.im_back,
-    #                 title=q,
-    #                 value=q,
-    #             )
-    #         )
-    #
-    #     msg = MessageFactory.text(text)
-    #     msg.suggested_actions = SuggestedActions(
-    #         actions=lista_suggested_actions
-    #     )
-    #     return msg
