@@ -15,7 +15,7 @@ Le funzionalità offerte dal bot sono:
 -   restituire le criptovalute che hanno un **prezzo compreso** in un range di valori inserito dell'utente.
 
 	
-<p align="center"><img src="./images/servizi.png"/></p>
+<p align="center"><img src="./images/architettura.jpg"/></p>
 
 Il bot è stato sviluppato in Python ed è stato pubblicato ed utilizza come canale Telegram ed utilizza i seguenti servizi:
 
