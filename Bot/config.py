@@ -28,3 +28,7 @@ class DefaultConfig:
     # Search Bing
     BING_KEY = os.environ.get("BingKey", "")
     BING_SEARCH_URL = os.environ.get("BingSearchUrl", "")
+    
+    # Serverless Function
+    SERVERLESS_FUNCTION_URI = os.environ.get("ServerlessFunctionUri", "")
+    SERVERLESS_FUNCTION_KEY = os.environ.get("ServerlessFunctionkey", "")
