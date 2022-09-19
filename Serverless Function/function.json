@@ -1,0 +1,11 @@
+{
+  "scriptFile": "check_followed_crypto.py",
+  "bindings": [
+    {
+      "name": "mytimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 0 10 * * *"
+    }
+  ]
+}
