@@ -4,7 +4,7 @@ CryptoBot
 - Marrazzo Vincenzo
 - Sorrentino Giovanni Battista
 
-**CryptoBot** è un bot per Telegram in grado di fornire supporto agli utenti che fanno parte del mondo delle criptovalute con esso sarà più facile ricevere informazioni e amministrare le proprie cripto.
+**CryptoBot** è un bot per Telegram in grado di fornire supporto agli utenti interessati al mondo delle criptovalute, con esso sarà più facile ricevere informazioni e amministrare le proprie cripto.
 
 Le funzionalità offerte dal bot sono:
 
