@@ -89,7 +89,7 @@ Per effettuare il deploy della funzione serverless è necessario avere installat
 1. andare in Azure functions e creare un nuovo progetto
 2. selezionare come python come linguaggio e la relativa versione
 3. seleziona "trigger time" come template
-4. immettere con "0 0 * * * *" nel campo relativo alla espressione cron
+4. immettere con "0 0 * * * *" nel campo relativo alla espressione cron (in questo modo la funzione serverless viene eseguita ogni ora)
 5. inserire il codice della funzione serverless (il file è presente nella cartella "Serverless Function" ed è denominato "check_followed_crypto.py") nel file init.py
 6. andare in "deploy to function App"
 
